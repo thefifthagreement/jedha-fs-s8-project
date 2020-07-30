@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<form action="{{ url_for('predict') }}" method="POST">
+    <label class="label">Entrer le message à tester:</label>
+    <div class="field">
+        <p class="control">
+            <textarea class="textarea" id="message" name="message" rows="5"></textarea>
+        </p>
+    </div>
+    <div class="field">
+        <p class="control">
+            <input class="button is-success" type="submit" value="Tester">
+        </p>
+    </div>
+</form>
+
+{% endblock %}
