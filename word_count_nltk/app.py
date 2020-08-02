@@ -81,5 +81,17 @@ def index():
     return render_template("index.html", errors=errors, results=results)
 
 
+@app.route("/results")
+def results():
+    if request.method == "GET":
+        select = Result.query.all()[-10:]
+        results = [
+            {
+                "url": s.url,
+                "words": list(s.result_no_stop_words)[:15]
+            } for s in select]
+    return render_template("results.html", results=results)
+
+
 if __name__ == '__main__':
     app.run()
