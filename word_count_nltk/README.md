@@ -5,7 +5,7 @@ This **Natural Language Processing** project uses NLTK, a python suite of module
 in order to calculate the word-frequency pairs based on the text from a given URL.
 
 Flask is used for the website, [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
-to get the text of the target website and NLTK.
+to get the text of the target page.
 
 The results of the calculation are stored in a PostgreSQL database.
 If you want to replicate this project you'll need at least a local instance of PostgreSQL.
@@ -31,7 +31,7 @@ SET DBUSER=postgres
 SET DBPASS=your_db_pass
 SET DBNAME=the_database_name
 ```
-In unix and unix-like system the `SET` should be replaced by `export`
+In unix and unix-like system the `SET` should be replaced by `export`.
 
 ## Architecture
 The architecture of the website is a standard Flask one:
