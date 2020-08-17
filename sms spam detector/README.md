@@ -21,7 +21,7 @@ Link to the kaggle [dataset](https://www.kaggle.com/uciml/sms-spam-collection-da
 ## Preprocessing and model training
 _(sms spam detector.ipynb)_
 
-The CountVectorizer is used to tokenize the words and to transform the messages
+The CountVectorizer is used to tokenize the words and transform the messages
 into a matrix.
 
 Using a train test split with a test size of 33%, the Naive Bayes classifier does quite well:
@@ -40,7 +40,7 @@ weighted avg       0.98      0.98      0.98      1839
 ## Serializing the CountVectorizer and the Model
 
 In order to use the model in the web app, we need to export the CountVectorizer and the Model.
-We create two pickles using the *joblib* library.
+We create two pickles using the `joblib` library.
 
 ```python
 joblib.dump(cv, wd_path.joinpath("model/cv.pkl"))
@@ -51,7 +51,7 @@ joblib.dump(clf, wd_path.joinpath("model/spam_clf.pkl"))
 _(app.py)_
 
 From the main page of the web app the user is asked to enter a message.
-Then he uses the "Tester" button to predict whether or not it's a spam.
+Then he uses the `Tester` button to predict whether or not it's a spam.
 
 ## The main page:
 ![alt text](./images/sms_spam_message.png)
