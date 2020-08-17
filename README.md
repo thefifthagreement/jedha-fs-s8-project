@@ -6,7 +6,7 @@ _Session dsmft-paris-08_
 
 Ces projets consistent à créer une application web via le microframework FLASK. 
 
-## Projet 1 : SMS SPAM DETECTOR
+## Projet 1 : [SMS SPAM DETECTOR](https://github.com/thefifthagreement/jedha-fs-s8-project/tree/master/sms%20spam%20detector)
 
 Dans ce projet, vous allez créer une application qui permettra à l'utilisateur de rentrer un SMS dans un formulaire. Votre application devra être capable de lire ce message et de prédire si ce texte est un SPAM ou non.
 
