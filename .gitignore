@@ -1,2 +1,5 @@
 .idea
 word_count_nltk/.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
