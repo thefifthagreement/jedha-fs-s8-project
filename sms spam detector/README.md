@@ -2,20 +2,20 @@
 
 ## Introduction
 First, using a scikit-learn [CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) and [Multinomial Naive Bayes](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html) classifier model,
-I create a sms spam detector.
+we create a sms spam detector.
 
 Then the model is deployed on a local website using Flask.
 
 The css is powered by [Bulma](https://bulma.io/).
 
-## requirements
+## Requirements
 ```
 pandas=1.1.0
 sklearn=0.23.1
 flask=1.1.2
 ```
 
-## dataset
+## Dataset
 Link to the kaggle [dataset](https://www.kaggle.com/uciml/sms-spam-collection-dataset).
 
 ## Preprocessing and model training
