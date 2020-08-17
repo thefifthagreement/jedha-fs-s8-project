@@ -45,7 +45,7 @@ _(app.py)_
 
 From the main page of the web app the user is asked to enter a message.
 Then he uses the "Tester" button to predict whether or not it's a spam.
-![alt text]("./images/sms spam message.png")
+![alt text](./images/sms_spam_message.png)
 
 The prediction process is done in two phases:
 * the pickles are loaded:
@@ -65,10 +65,4 @@ message = cv.transform([request.form["message"]])
 prediction = clf.predict(message)
 ```
 The result page:
-![alt text]("./images/sms spam prediction.png")
-
-## Bulma css
-       
-
-
-
+![alt text](./images/sms_spam_prediction.png)       
