@@ -26,7 +26,7 @@ into a matrix.
 
 Using a train test split with a test size of 33%, the Naive Bayes classifier does quite well:
 
-## Classification report using the predictions on the test set
+### Classification report using the predictions on the test set
 ```
               precision    recall  f1-score   support
 
@@ -53,7 +53,7 @@ _(app.py)_
 From the main page of the web app the user is asked to enter a message.
 Then he uses the `Tester` button to predict whether or not it's a spam.
 
-## The main page:
+### The main page:
 ![alt text](./images/sms_spam_message.png)
 
 The prediction process is done in two phases:
@@ -73,5 +73,5 @@ message = cv.transform([request.form["message"]])
 # prediction
 prediction = clf.predict(message)
 ```
-## The result page:
+### The result page:
 ![alt text](./images/sms_spam_prediction.png)       
