@@ -1,9 +1,11 @@
 # SMS Spam Detector
 
 ## requirements
+```
 pandas=1.1.0
 sklearn=0.23.1
 flask=1.1.2
+```
 
 ## dataset
 Link to the kaggle [dataset](https://www.kaggle.com/uciml/sms-spam-collection-dataset).
@@ -43,7 +45,7 @@ _(app.py)_
 
 From the main page of the web app the user is asked to enter a message.
 Then he uses the "Tester" button to predict whether or not it's a spam.
-![alt text](./images/sms spam message.png)
+![alt text]("./images/sms spam message.png")
 
 The prediction process is done in two phases:
 * the pickles are loaded:
@@ -63,7 +65,7 @@ message = cv.transform([request.form["message"]])
 prediction = clf.predict(message)
 ```
 The result page:
-![alt text](./images/sms spam prediction.png)
+![alt text]("./images/sms spam prediction.png")
 
 ## Bulma css
        
