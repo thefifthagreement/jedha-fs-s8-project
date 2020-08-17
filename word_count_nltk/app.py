@@ -2,7 +2,6 @@ import os
 import requests
 import operator
 from pathlib import Path
-from dotenv import load_dotenv
 import re
 import nltk
 from flask import Flask, render_template, request
@@ -14,10 +13,6 @@ from stop_words import stops
 
 # project directory
 project_dir = Path.cwd()
-
-# .env read
-load_dotenv(project_dir.joinpath(".env"))
-
 
 # app factory
 def create_app(config):
