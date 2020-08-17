@@ -15,7 +15,7 @@ Pour vous aider dans votre tâche, nous vous conseillons de suivre ce tutorial d
 [Develop a NLP model model in Python](https://towardsdatascience.com/develop-a-nlp-model-in-python-deploy-it-with-flask-step-by-step-744f3bdd7776)
 
 
-## Projet 2 : Word Count avec NLTK
+## Projet 2 : [Word Count avec NLTK](https://github.com/thefifthagreement/jedha-fs-s8-project/tree/master/word_count_nltk)
 
 Avec ce projet, nous montons en difficulté puisque nous devrons connecter une base de données à notre application. Le but est de construire une application qui sera capable de lire du texte et de faire un classement des mots les plus fréquents dans ce texte.
 
