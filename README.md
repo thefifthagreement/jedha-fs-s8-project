@@ -15,7 +15,7 @@ To help build this app, I followed this tutorial on Towards Data Science :
 [Develop a NLP model model in Python](https://towardsdatascience.com/develop-a-nlp-model-in-python-deploy-it-with-flask-step-by-step-744f3bdd7776)
 
 
-## Projet 2 : [Word Count avec NLTK](https://github.com/thefifthagreement/jedha-fs-s8-project/tree/master/word_count_nltk)
+## Project 2 : [Word Count avec NLTK](https://github.com/thefifthagreement/jedha-fs-s8-project/tree/master/word_count_nltk)
 
 In this project, the web app connects a PostgreSql database. The user gives a website adress link. The app then returns a word count and a ranking of the most frequent words on the website page.
 
