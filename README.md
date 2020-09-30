@@ -1,7 +1,7 @@
 # Building a Machine Learning web app
 
 > Jedha Data Science Bootcamp - Fullstack - week 8
-<br>
+
 > _Session dsmft-paris-08_
 
 In this two projects I use FLASK framework, PostgreSql database and pickles from pre-trained models. 
